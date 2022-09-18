@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform:uppercase
+
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+/* Start Other Screens CSS */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.website {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+header {
+    background-color: #5070b5;
+    margin-bottom: 5px;
+
+}
+
+header .container {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 78vh;   
+
+}
+
+
+aside {
+    height: 78vh;   
+    min-width: 25%;
+    background-color: #b95f21;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    padding-top: 30px;
+}
+
+
+main {
+    height: 78vh;   
+    background-color: #81a43c;
+    display: flex;
+    min-width: 50%;
+    align-items: space-between;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+footer  {
+    background-color: #5070b5;
+    height: 11vh;
+    margin-top: 5px;
+
+}
+
+footer .container {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* End Other Screens CSS */
+
+
+/* Start Mobile Screen CSS */
+
+@media (max-width: 600px)  {
+
+   .container {
+    width: 100%;
+   }
+
+.flex-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+aside, main {
+    width: 100%;
+}
+
+}
+
+/* End Mobile Screen CSS */

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* Start Other Screens CSS */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: bisque;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav ul li {
+    margin-bottom: 5px;
+}
+
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section {
+    border: 2px solid black;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 49%;
+    font-size: 1.2rem;
+
+}
+
+section p {
+    padding: 5px 10px;
+}
+
+section .footer {
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+
+}
+
+/* End Other Screens CSS */
+
+
+/* Start Mobile Screen CSS */
+
+@media (max-width: 600px)  {
+
+    .container {
+        width: 99%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li a{
+        display: block;
+        color: black;
+        padding: 10px;
+        font-size: 1.1rem;
+
+    }
+
+    main {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 1rem;
+
+    }
+
+}
+/* End Mobile Screen CSS */
